@@ -58,10 +58,19 @@ The assignment involves:
 - Repository name: `devops-assignment`
 - Selected Public  
 - Did not add README initially  
-- Created the repository  
+- Created the repository
+
+  **Git commands used**
+- git add .
+git commit -m "Added demo script and updated Dockerfile"
+git push origin main
 
  **Step 2: Added Dockerfile**
 - Clicked **Add file → Create new file**
 - Named it `Dockerfile`
 - Pasted the Dockerfile content:
+
+  **Docker Commands used**
+- docker build -t linux-commands-demo .
+docker run -it linux-commands-demo
 
